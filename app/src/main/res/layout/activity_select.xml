@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lk.aravinda.cccrm_mvp.ui.select.SelectActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/img_back">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/pendingIns"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rec2"
+
+                    android:text="@string/pending_inspection"
+                    android:textSize="@dimen/_15sdp"
+                    android:textAppearance="@style/pending_ins"
+                    android:padding="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    />
+                <!--android:drawableRight="@drawable/clock"-->
+
+                <Button
+                    android:id="@+id/savedIns"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:background="@drawable/rec2"
+                    android:layout_gravity="center"
+
+                    android:text="@string/saved_inspection"
+                    android:textSize="@dimen/_15sdp"
+                    android:textAppearance="@style/pending_ins"
+                    android:padding="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    />
+                <!--android:drawableRight="@drawable/floppy_disk"-->
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/Renewal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rec2"
+
+                    android:text="Renewals"
+                    android:textSize="@dimen/_15sdp"
+                    android:textAppearance="@style/pending_ins"
+                    android:padding="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    />
+                <!--android:drawableRight="@drawable/clock"-->
+                <Button
+                    android:id="@+id/SavedRenewal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rec2"
+
+                    android:text="Saved Renewals"
+                    android:textSize="@dimen/_15sdp"
+                    android:textAppearance="@style/pending_ins"
+                    android:padding="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    />
+                <!--android:drawableRight="@drawable/clock"-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/Transfer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rec2"
+
+                    android:text="Transfer Inspections"
+                    android:textSize="@dimen/_15sdp"
+                    android:textAppearance="@style/pending_ins"
+                    android:padding="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    />
+                <!--android:drawableRight="@drawable/clock"-->
+                <Button
+                    android:id="@+id/SavedTransfer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rec2"
+
+                    android:text="Saved Transfer Inspections"
+                    android:textSize="@dimen/_15sdp"
+                    android:textAppearance="@style/pending_ins"
+                    android:padding="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    />
+
+                android:drawableRight="@drawable/clock"
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/logOutBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="66dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="25dp"
+                    android:background="@drawable/login_button"
+                    android:text="Log Out"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
